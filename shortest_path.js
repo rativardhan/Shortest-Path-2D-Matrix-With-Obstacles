@@ -172,3 +172,28 @@ console.log(allObstacle2DMatrix)
 console.log(allObstacleXY)
 console.log(shortestPathLength-1)
 console.log(shortestXY)
+
+// Test case explain better for this problem
+allObstacle2DMatrix = [];
+duplicateVirtualPath = [];
+allObstacleXY = [];
+currentObstacleXY = [];
+shortestPathLength =0;
+shortestXY = [];
+
+shortestPathLengthProcess(0,0,
+    [
+        [1,1,1],
+        [1,0,0,0],
+        [1,0,1,0],
+        [1,0,9,0],
+        [1,0,1,0,0],
+        [1,1,1,0,0],
+        [1,0,0,0,0],
+        [0,0,0,0,0]
+    ])
+
+console.log(allObstacle2DMatrix)
+console.log(allObstacleXY)
+console.log(shortestPathLength-1)
+console.log(shortestXY)
